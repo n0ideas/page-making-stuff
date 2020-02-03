@@ -1,0 +1,285 @@
+body {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../gllacy/preview/gllacy-index-1200.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #849d8f;
+}
+
+a {
+  color: #ffffff;
+}
+
+.container>*, .container>*>*, .map {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 1px rgb(255, 45, 82);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1146px;
+}
+
+.app-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -13px;
+}
+
+.main-header {
+  position: relative;
+  align-items: center;
+  min-height: 64px;
+  padding: 10px 0;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-header {
+  position: absolute;
+}
+
+.main-logo {
+  margin-right: 12px;
+}
+
+.main-menu {
+  min-width: 701px;
+  margin-right: 13px;
+  padding-bottom: 10px;
+}
+
+.main-menu ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu a {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 5px 12px;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.user-panel {
+  padding-bottom: 4px;
+}
+
+.user-panel a {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.user-panel span {
+  position: absolute;
+  top: 5px;
+  left: 45px;
+}
+
+.user-panel .loupe {
+  min-height: 32px;
+  min-width: 32px;
+  margin-left: 5px;
+}
+
+.user-panel .login {
+  min-height: 32px;
+  min-width: 94px;
+  margin-left: 5px;
+}
+
+.user-panel .cart {
+  min-height: 32px;
+  min-width: 117px;
+  margin-left: 5px;
+}
+
+.loupe::before {
+  position: absolute;
+  content: "";
+  background: url('../img/loupe.svg') no-repeat;
+  width: 17px;
+  height: 17px;
+  top: 5px;
+  left: 7px;
+}
+
+.login::before {
+  position: absolute;
+  content: "";
+  background: url('../img/login.svg') no-repeat;
+  width: 21px;
+  height: 20px;
+  top: 5px;
+  left: 17px;
+}
+
+.cart::before {
+  position: absolute;
+  content: "";
+  background: url('../img/cart.svg') no-repeat;
+  width: 21px;
+  height: 19px;
+  top: 5px;
+  left: 17px;
+}
+
+.working-hours {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+.phone {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.slider {
+  padding-top: 310px;
+  min-height: 212px;
+  margin-bottom: 39px;
+  ;
+}
+
+.slide {
+  margin: 0 auto;
+  min-height: 212px;
+  width: 667px;
+}
+
+.promos {
+  min-height: 228px;
+  margin-bottom: 38px;
+}
+
+.promos .item {
+  box-sizing: border-box;
+  height: 228px;
+  width: calc(100%/12*6 - 26px);
+  padding: 14px 18px;
+  margin: 0 13px;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+
+.hits {
+  min-height: 325px;
+  margin-bottom: 38px;
+}
+
+.hits .product {
+  box-sizing: border-box;
+  height: 325px;
+  width: calc(100%/12*3 - 26px);
+  margin: 0 13px;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+
+.store-description {
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 26px;
+  min-height: 307px;
+  margin-bottom: 38px;
+}
+
+.store-description b {
+  display: block;
+  height: 64px;
+  background-color: rgba(162, 21, 228, 0.308);
+}
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.advantages .item {
+  height: 89px;
+  width: calc(50% - 13px);
+  padding-left: 57px;
+  padding-top: 27px;
+  box-sizing: border-box;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+
+.news {
+  min-height: 221px;
+  margin-bottom: 40px;
+}
+
+.news .item{
+  box-sizing: border-box;
+  height: 221px;
+  width: calc(100%/12*6 - 26px);
+  padding: 14px 18px;
+  margin: 0 13px;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+
+.news .content-banner {
+  padding: 5px;
+}
+
+.news .subscribe {
+  padding: 32px 21px;
+  min-height: 210px;
+  box-sizing: border-box;
+}
+
+.map {
+  min-height: 432px;
+  margin-bottom: 17px;
+}
+
+.footer {
+  min-height: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .social {
+  min-height: 38px;
+  width: 186px;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+
+.footer .suppliers {
+  min-height: 45px;
+  width: 305px;
+  padding-left: 10px;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+
+.footer .production {
+  min-height: 58px;
+  width: 189px;
+  background-color: rgba(21, 152, 228, 0.308);
+}
+.basic {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 19px;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
